@@ -1,0 +1,390 @@
+/* General styles resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+button {
+    font: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+/* NavBar Section */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #636c79;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .right .list-items {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1.7rem;
+}
+
+.nav-btn {
+    height: 4rem;
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 15rem;
+    font-size: 1.6rem;
+    margin-left: 2.4rem;
+}
+
+/* Header Section */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 7.3rem 3rem;
+    gap: 4rem;
+    background-color: #636c79;
+    color: #ffffff;
+    width: 100%;
+}
+
+.header .left {
+    width: 50%;
+}
+
+.header .right {
+    width: 50%;
+}
+
+.header .right-head {
+    padding: 2rem 0;
+    font-size: 6rem;
+}
+
+.header .right .right-content {
+    font-size: 1.9rem;
+    margin: 1rem 0;
+}
+
+.header .right .email .email-content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header .right .email {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6rem;
+    height: 7.6rem;
+    width: 63rem;
+    padding: 0 1rem;
+    background-color: #ffffff;
+}
+
+.header .right .email-content img {
+    width: 25px;
+    margin: 0 10px;
+}
+
+.header .right .email input {
+    font-size: 1.9rem;
+    border: none;
+}
+
+/* Reusable btn */
+.btn {
+    border: none;
+    height: 60px;
+    width: 170px;
+    background-color: #8bb7a2;
+    color: white;
+    font-size: 1.7rem;
+}
+.btn-email {
+}
+
+/* User Statistics */
+
+.user-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.user-stats .head {
+    font-size: 5rem;
+    width: 80rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.user-stats .lists .list-item {
+    font-size: 2.3rem;
+}
+
+.user-stats .lists .list-item p {
+    font-weight: 800;
+    color: #636c79;
+}
+
+.user-stats img {
+    width: 140rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.third-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.third-head .head {
+    font-size: 50px;
+    width: 600px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* reusable class */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.mt {
+    margin: 5rem 0;
+}
+
+/* Features */
+
+.features {
+    padding: 4rem;
+}
+
+.feature-1 .right {
+    width: 50%;
+}
+
+.feature-1 .left {
+    width: 50%;
+    margin-right: 20rem;
+}
+
+.feature-1 .left h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.feature-1 .left p {
+    color: #636c79;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+}
+
+.feature-2 {
+    margin-top: 10rem;
+}
+
+.feature-2 .right {
+    width: 60rem;
+    margin-left: 3rem;
+}
+
+.feature-2 .right h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.feature-2 .right p {
+    color: #636c79;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.feature-2 .left img {
+    width: 70rem;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team .upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.team .upper p {
+    width: 60rem;
+    color: #636c79;
+    font-size: 1.8rem;
+}
+
+.team .upper h1 {
+    width: 35rem;
+    font-size: 4rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.cards .image-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .image-card img {
+    width: 400px;
+}
+
+.image-card h1 {
+    font-size: 2.4rem;
+    margin-top: 3rem;
+    margin-bottom: 2.3rem;
+}
+
+.image-card p {
+    font-size: 1.4rem;
+    color: #636c79;
+    width: 40rem;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #10181d;
+    height: 52rem;
+    padding: 3rem;
+}
+
+.footer .upper {
+    margin-top: 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 120rem;
+}
+
+.footer .line {
+    width: 95%;
+    height: 1px;
+    background-color: #636c79;
+}
+
+.footer .down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+.footer .down .list {
+    color: #969da7;
+}
+
+.footer .down .list .list-item {
+    margin: 1.7rem;
+}
+
+.footer .down .list .head {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 70em) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .left {
+        width: 100%;
+    }
+
+    .header .right {
+        width: 100%;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards {
+        flex-direction: column;
+    }
+
+    .upper {
+        flex-direction: column;
+    }
+
+    .navbar .right {
+        display: none;
+    }
+
+    .feature-1 .right {
+        width: 100%;
+    }
+
+    .feature-1 .left {
+        width: 65%;
+    }
+}
